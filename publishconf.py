@@ -11,6 +11,9 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://jeffallan.github.io/Pelican-With-Pelican'
+
+# Must be set to True for github project pages
+# see https://github.com/getpelican/pelican/issues/1526
 RELATIVE_URLS = True
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
