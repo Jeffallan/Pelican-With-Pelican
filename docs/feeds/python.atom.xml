@@ -21,6 +21,7 @@
 &lt;p&gt;Uses a small amount of resources &lt;em&gt;see&lt;/em&gt; &lt;a href="https://www.fullstackpython.com/static-site-generator.html"&gt;this post on Full Stack Python&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;5. Content Is Source Controlled&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Your content is not hidden in a database; it is part of your codebase.  Therefore, it can be subjected to pull requests and issues just like the rest of your code.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/Jeffallan/Pelican-With-Pelican"&gt;Link to this site's repo.&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Cons&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;1. No Realtime, Dynamic, Or Custom Content&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Altering content requires you to rerender your static HTML files.&lt;/p&gt;

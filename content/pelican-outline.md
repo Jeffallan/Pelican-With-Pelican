@@ -49,6 +49,8 @@ Uses a small amount of resources *see* [this post on Full Stack Python](https://
 
 Your content is not hidden in a database; it is part of your codebase.  Therefore, it can be subjected to pull requests and issues just like the rest of your code.
 
+[Link to this site's repo.](https://github.com/Jeffallan/Pelican-With-Pelican)
+
 ### Cons
 
 **1. No Realtime, Dynamic, Or Custom Content**
