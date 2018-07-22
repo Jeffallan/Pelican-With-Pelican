@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Introducing Pelican Using Pelican</title><link href="https://jeffallan.github.io/Pelican-With-Pelican/" rel="alternate"></link><link href="https://jeffallan.github.io/Pelican-With-Pelican/feeds/all.atom.xml" rel="self"></link><id>https://jeffallan.github.io/Pelican-With-Pelican/</id><updated>2018-07-21T00:00:00+02:00</updated><entry><title>Pelican: A Static Site Generator (SSG) Written In Python</title><link href="https://jeffallan.github.io/Pelican-With-Pelican/" rel="alternate"></link><published>2018-07-21T00:00:00+02:00</published><updated>2018-07-21T00:00:00+02:00</updated><author><name>Jeff S.</name></author><id>tag:jeffallan.github.io,2018-07-21:/Pelican-With-Pelican/</id><summary type="html">&lt;p&gt;Notes for a presentation on static site generators and Pelican given to the Omaha Python User Group on 07/26/2018.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Notes for a presentation on static site generators and Pelican given to the Omaha Python User Group on 07/26/2018.  This static site was rendered with pelican.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;What Are SSGs?&lt;/h2&gt;
+&lt;p&gt;Think of SSGs as a throwback to the old school with a modern twist: &lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.kinja-img.com/gawker-media/image/upload/s--dPeSSMpu--/18edh1z146cjapng.png" style="display:block; margin-left: auto; margin-right: auto;" height="350" width=350/&gt;&lt;/p&gt;
+&lt;p&gt;Modern SSGs use markup languages and templating engines to produce HTML files.  Those HTML files, along with your static assets, are then uploaded onto a server where they are delivered to users.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.fullstackpython.com"&gt;Full Stack Python&lt;/a&gt; is an example of a modern static site created with pelican.&lt;/p&gt;
+&lt;h2&gt;SSGS The Good And The Bad&lt;/h2&gt;
+&lt;p&gt;Like any other technology there are pros and cons to using any framework and SSGs are no different.  Identifying a proper use case for SSGs revolves around this question:  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How Much User Interaction Do I Require?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The short answer: &lt;/p&gt;
+&lt;p&gt;If you require user interaction beyond a contact form or comments you probably should consider a different tool.&lt;/p&gt;
+&lt;h3&gt;Pros:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. Speed&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Served content is not dynamic.  A database is not queried to generate content.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Security&lt;/strong&gt; &lt;/p&gt;
+&lt;p&gt;Fewer attack vectors as your server is only delivering static content. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Easier Infrastructure Maintenance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No multiple: servers, Operating Systems, dependencies, or database engines.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Handles Traffic Spikes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Uses a small amount of resources &lt;em&gt;see&lt;/em&gt; &lt;a href="https://www.fullstackpython.com/static-site-generator.html"&gt;this post on Full Stack Python&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Content Is Source Controlled&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your content is not hidden in a database; it is part of your codebase.  Therefore, it can be subjected to pull requests and issues just like the rest of your code.&lt;/p&gt;
+&lt;h3&gt;Cons&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. No Realtime, Dynamic, Or Custom Content&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Altering content requires you to rerender your static HTML files.&lt;/p&gt;
+&lt;p&gt;Also, supporting multiple users, their likes, and preferences is best left to a framework that uses a database.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Sparse User Interaction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Depending on which SSG you chose there are some workarounds, plugins, and third party services for things like form submission, comments, and search.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Not Every SSG Has An Admin Interface&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is an important consideration if your content creation team is used to working out of a dashboard.&lt;/p&gt;
+&lt;h2&gt;Pelican from 10,000 Feet&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Main Highlights Of Pelican Include: &lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;- ReStructured Text and Markdown Support
+- Supports Articles and Pages Similar to WordPresss
+- Multiple Language Support
+- Code Highlighting
+- An Extensive Plugin and Theme Ecosystem
+- Templating with Jinja2
+- Atom and RSS Feeds
+- WordPress Import
+- Google Analytics Integration
+- Easy Deployment
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Why Chose Pelican To Update The Current Omaha Python User Group Website&lt;/h2&gt;
+&lt;p&gt;We feel our current &lt;a href="http://www.omahapython.org"&gt;website&lt;/a&gt; needs a needs a face lift.  This site is a WordPress site.&lt;/p&gt;
+&lt;p&gt;Pelican gives us the opportunity to migrate the old site's content with &lt;a href="http://docs.getpelican.com/en/stable/importer.html"&gt;ease&lt;/a&gt; while both maintaining similar functionality and using Python to create the Omaha Python User Group's new website.&lt;/p&gt;</content></entry></feed>

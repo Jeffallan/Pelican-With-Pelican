@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jeff S.'
 SITENAME = 'Introducing Pelican Using Pelican'
-SITEURL = 'https://jeffallan.github.io/Pelican-With-Pelican'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -36,4 +36,4 @@ LINKS = (('Pelican Docs', 'http://docs.getpelican.com/en/stable/'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
