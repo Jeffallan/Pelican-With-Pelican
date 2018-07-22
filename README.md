@@ -20,6 +20,6 @@ To deploy a production build run:
 pelican content -o `pwd`/docs -s publishconf.py
 ```
 
-This command generates your static contnet in your /docs folder using your production settings.
+This command generates your static content in your /docs folder using your production settings.
 
 Then add, commit, and push those changes to your master branch.
